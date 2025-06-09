@@ -1,16 +1,10 @@
-function doGet() {
-  var data = {
-    authorized: [
-      "github",
-      "wiz",
-      "atlassian",
-      "wix",
-      "playwright",
-      "lushateam.atlassian.net",
-      "paypal",
-      "burpsuite"
-    ]
-  };
-  return ContentService.createTextOutput(JSON.stringify(data))
-                       .setMimeType(ContentService.MimeType.JSON);
+{
+  "authorized": [
+    "github",
+    "wiz",
+    "atlassian",
+    "wix",
+    "paypal",
+    "burpsuite"
+  ]
 }
